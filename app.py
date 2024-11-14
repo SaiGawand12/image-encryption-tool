@@ -14,7 +14,7 @@ def hash_password(password):
 
 # Hardcoded credentials (for demonstration purposes)
 USERNAME = "admin"
-PASSWORD = hash_password("password")
+PASSWORD = hash_password("admin")
 
 # Streamlit application
 st.title("Image Encryption and Decryption Tool")
